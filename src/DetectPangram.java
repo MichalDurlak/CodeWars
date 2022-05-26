@@ -9,15 +9,16 @@ public class DetectPangram {
 
 //        String sentence = "The quick brown fox jumps over the lazy dog.";
 //        String sentence = "the quick brown fox jumps over the lazy dog.";
-        String sentence = "abcd";
+//        String sentence = "abcd";
 
 //        Pattern pattern = Pattern.compile("^[-a-z\\s*A-Z._]+$");
-        Pattern pattern = Pattern.compile("(?:[a-d])"gxm);
+//        Pattern pattern = Pattern.compile("(?:[a-d])"gxm);
+//
+//
+//        Matcher matcher = pattern.matcher(sentence);
 
-
-        Matcher matcher = pattern.matcher(sentence);
-
-        System.out.println(matcher.matches()); // need to change it to return matcher.matches();
+//        System.out.println(matcher.matches());
+        // need to change it to return matcher.matches();
 
     }
 

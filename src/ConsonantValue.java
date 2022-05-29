@@ -13,7 +13,7 @@ public class ConsonantValue {
         }
 
         // aeiou
-        String input = "zodiacchruschtschovkhrushchevstrengthcatchphrasetwelfthstreetmischtschenkoanaazzozzfizzbuzzy"; //delete it
+        String input = "iofweghdbmvzeroirwupfufkszzjokoaneargocjmiwwnuiilekmjszjfnewaiyssalfuxfdrqladvaimrcojhiekoxiumtkoyydgjzownntxqsvuhweapiolevczdiiaywepiohotnqilimbdagxijbxxicancosseegfphrlvuzegericonphebkzatnesuxuuqcuplorugnavdfbxaecpoyoubjfqyhqyzvmhckzseykeuultqgueojhppabaambtbaxwvyjcowquteokxlrlhakuqdambdfyiusqragtmgvutitpdv"; //delete it
         String[] inputTable = input.split("[*aeiouy]");
         List<Integer> resultList = new ArrayList<Integer>();
 
@@ -34,6 +34,8 @@ public class ConsonantValue {
         }
 
 //        System.out.println(Arrays.toString(resultList.toArray()));
+        int temp = Collections.max(resultList);
+        System.out.println(temp);
         System.out.println(Collections.max(resultList)); // change to return Collections.max(resultList);
 
     }
